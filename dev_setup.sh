@@ -1,7 +1,7 @@
 pip install -U torch torchvision torchaudio
 
 pip install -U plyfile tqdm open3d ninja GPUtil \
-	opencv-python lpips trimesh
+	opencv-python lpips trimesh tensorboard
 
 cd ./submodules/diff-gaussian-rasterization
 pip install -e .
